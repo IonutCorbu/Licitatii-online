@@ -1,0 +1,59 @@
+.home-page {
+  background-image: url('./components/img/home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-page {
+  background-image: url('./components/img/login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register-page{
+  background-image: url('./components/img/register.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.start-page{
+  background-image: url('./components/img/start.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.admin-page{
+  background-image: url('./components/img/admin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.recovery-page{
+  background-image: url('./components/img/recovery.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.new_post-page
+{
+  background-image: url('./components/img/newpost.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.anunt-page
+{
+  background-image: url('./components/img/anunt.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.user-page
+{
+  background-image: url('./components/img/user.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.licitatii-page
+{
+  background-image: url('./components/img/licitatii.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
