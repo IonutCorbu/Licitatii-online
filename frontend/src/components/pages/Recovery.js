@@ -23,13 +23,13 @@ function Recovery()
         if (response.status === 200) {
           const { message } = response.data;
               
-          emailjs.init('l3TdoHObAItSXL8AD');
+          emailjs.init('');//stearsa pentru a nu fi folosite pentru trimitere de emailuri prin EmailJS
           const params = {
             to: email,
             message: message
           };
       
-          emailjs.send('service_7l1mqsm', 'template_h95enje', params)
+          emailjs.send('', '', params)//sterse pentru a nu fi folosite pentru trimitere de emailuri prin EmailJS
             .then(() => {
               if (window.confirm('Emailul pentru schimbarea parolei trimis cu succes')) {
                 navigate('/');
