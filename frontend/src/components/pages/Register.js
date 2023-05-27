@@ -33,12 +33,12 @@ function Register() {
       if (response.status === 200) {
         const token = response.data.token;
         alert('Înregistrare realizată cu succes!');
-        emailjs.init('l3TdoHObAItSXL8AD');
+        emailjs.init('');//stearsa pentru a nu fi folosita pentru trimitere de emailuri prin EmailJS
         var params = {
           to: email,
           to_name: username
         };
-        emailjs.send('service_7l1mqsm', 'template_hgr1vej', params);
+        emailjs.send('', '', params);//sterse pentru a nu fi folosite pentru trimitere de emailuri prin EmailJS
         navigate('/start');
         document.cookie = `username=${username}; path=/`;
         localStorage.setItem('token', token);
